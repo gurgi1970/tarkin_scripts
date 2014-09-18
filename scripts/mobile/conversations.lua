@@ -32,6 +32,9 @@ includeFile("conversations/events/bestine_museum/bestine_artist05_conv.lua")
 includeFile("conversations/events/bestine_museum/bestine_artist06_conv.lua")
 includeFile("conversations/events/bestine_museum/museum_curator_conv.lua")
 
+-- Events
+includeFile("conversations/events/event_promoter_conv.lua")
+
 -- Epic Quests
 includeFile("conversations/themepark/epic_quests/goru_conv.lua")
 
@@ -93,7 +96,7 @@ includeFile("conversations/tasks/serene_floater_conv.lua")
 includeFile("conversations/tasks/ris_armor_quest_conv.lua")
 includeFile("conversations/tasks/librarian_conv.lua")
 includeFile("conversations/tasks/theater_manager_conv.lua")
-includeFile("conversations/tasks/anniversary2_template.lua")
+includeFile("conversations/tasks/painting_template.lua")
 
 -- Village
 includeFile("conversations/village/old_man_conv.lua")
@@ -109,3 +112,10 @@ includeFile("conversations/racetracks/nashalconversation.lua")
 
 -- Space
 includeFile("conversations/space/chassis_dealer_conv.lua")
+
+-- Record Keepers
+includeFile("conversations/record_keepers/planet_record_keeper_dantoonie_conv.lua")
+includeFile("conversations/record_keepers/planet_record_keeper_tatoonie_conv.lua")
+includeFile("conversations/record_keepers/record_keeper_imperial_conv.lua")
+includeFile("conversations/record_keepers/record_keeper_jabba_conv.lua")
+includeFile("conversations/record_keepers/record_keeper_rebel_conv.lua")
