@@ -165,11 +165,11 @@ object_tangible_loot_factional_schematic_shared_imperial_scout_trooper_leggings_
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_factional_schematic_shared_imperial_scout_trooper_leggings_schematic, "object/tangible/loot/factional_schematic/shared_imperial_scout_trooper_leggings_schematic.iff")
 
+--storm trooper
+
 object_tangible_loot_factional_schematic_shared_imperial_stormtrooper_utility_belt_schematic = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/loot/factional_schematic/shared_imperial_stormtrooper_utility_belt_schematic.iff"
 }
-
---storm trooper
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_factional_schematic_shared_imperial_stormtrooper_utility_belt_schematic, "object/tangible/loot/factional_schematic/shared_imperial_stormtrooper_utility_belt_schematic.iff")
 
@@ -221,11 +221,18 @@ object_tangible_loot_factional_schematic_shared_imperial_stormtrooper_leggings_s
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_factional_schematic_shared_imperial_stormtrooper_leggings_schematic, "object/tangible/loot/factional_schematic/shared_imperial_stormtrooper_leggings_schematic.iff")
 
+object_tangible_loot_factional_schematic_shared_imperial_stormtrooper_helmet_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/factional_schematic/shared_imperial_stormtrooper_helmet_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_factional_schematic_shared_imperial_stormtrooper_helmet_schematic, "object/tangible/loot/factional_schematic/shared_imperial_stormtrooper_helmet_schematic.iff")
+
+
+--reb assault armor
+
 object_tangible_loot_factional_schematic_shared_rebel_assault_bicep_l_schematic = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/loot/factional_schematic/shared_rebel_assault_bicep_l_schematic.iff"
 }
-
---reb assault armor
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_factional_schematic_shared_rebel_assault_bicep_l_schematic, "object/tangible/loot/factional_schematic/shared_rebel_assault_bicep_l_schematic.iff")
 
@@ -277,11 +284,11 @@ object_tangible_loot_factional_schematic_shared_rebel_assault_leggings_schematic
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_factional_schematic_shared_rebel_assault_leggings_schematic, "object/tangible/loot/factional_schematic/shared_rebel_assault_leggings_schematic.iff")
 
+--reb marine
+
 object_tangible_loot_factional_schematic_shared_rebel_marine_bicep_l_schematic = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/loot/factional_schematic/shared_rebel_marine_bicep_l_schematic.iff"
 }
-
---reb marine
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_factional_schematic_shared_rebel_marine_bicep_l_schematic, "object/tangible/loot/factional_schematic/shared_rebel_marine_bicep_l_schematic.iff")
 
@@ -334,6 +341,10 @@ object_tangible_loot_factional_schematic_shared_rebel_marine_leggings_schematic 
 ObjectTemplates:addClientTemplate(object_tangible_loot_factional_schematic_shared_rebel_marine_leggings_schematic, "object/tangible/loot/factional_schematic/shared_rebel_marine_leggings_schematic.iff")
 
 --reb battle
+
+object_tangible_loot_factional_schematic_shared_rebel_battle_bicep_l_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/factional_schematic/shared_rebel_battle_bicep_l_schematic.iff"
+}
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_factional_schematic_shared_rebel_battle_bicep_l_schematic, "object/tangible/loot/factional_schematic/shared_rebel_battle_bicep_l_schematic.iff")
 
