@@ -115,3 +115,11 @@ object_tangible_wearables_armor_marine_shared_armor_marine_bracer_r = SharedTang
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_wearables_armor_marine_shared_armor_marine_bracer_r, "object/tangible/wearables/armor/marine/shared_armor_marine_bracer_r.iff")
+
+--gloves
+
+object_tangible_wearables_armor_marine_shared_armor_marine_gloves = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/armor/marine/shared_armor_marine_gloves.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_wearables_armor_marine_shared_armor_marine_gloves, "object/tangible/wearables/armor/marine/shared_armor_marine_gloves.iff")
