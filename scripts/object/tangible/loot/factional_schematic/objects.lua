@@ -213,8 +213,6 @@ object_tangible_loot_factional_schematic_shared_imperial_stormtrooper_gloves_sch
 	clientTemplateFileName = "object/tangible/loot/factional_schematic/shared_imperial_stormtrooper_gloves_schematic.iff"
 }
 
-ObjectTemplates:addClientTemplate(object_tangible_loot_factional_schematic_shared_imperial_stormtrooper_helmet_schematic, "object/tangible/loot/factional_schematic/shared_imperial_stormtrooper_helmet_schematic.iff")
-
 object_tangible_loot_factional_schematic_shared_imperial_stormtrooper_leggings_schematic = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/loot/factional_schematic/shared_imperial_stormtrooper_leggings_schematic.iff"
 }
