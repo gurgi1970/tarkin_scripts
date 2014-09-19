@@ -41,7 +41,7 @@
 --this exception also makes it possible to release a modified version 
 
 
-object_tangible_loot_factional_schematic_rebel_marine_chest_plate_schematic = object_tangible_loot_factional_schematic_shared_rebel_marine_chest_plate_schematic:new {
+object_tangible_loot_factional_schematic_rebel_marine_chest_plate_rebel_schematic = object_tangible_loot_factional_schematic_shared_rebel_marine_chest_plate_rebel_schematic:new {
 	templateType = LOOTSCHEMATIC,
 	objectMenuComponent = {"cpp", "LootSchematicMenuComponent"},
 	attributeListComponent = "LootSchematicAttributeListComponent",
@@ -50,4 +50,4 @@ object_tangible_loot_factional_schematic_rebel_marine_chest_plate_schematic = ob
 	targetUseCount = 1
 }
 
-ObjectTemplates:addTemplate(object_tangible_loot_factional_schematic_rebel_marine_chest_plate_schematic, "object/tangible/loot/factional_schematic/rebel_marine_chest_plate_schematic.iff")
+ObjectTemplates:addTemplate(object_tangible_loot_factional_schematic_rebel_marine_chest_plate_rebel_schematic, "object/tangible/loot/factional_schematic/rebel_marine_chest_plate_rebel_schematic.iff")
