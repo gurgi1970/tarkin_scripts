@@ -43,49 +43,6 @@
 
 object_draft_schematic_armor_shared_armor_module_heavy = SharedDraftSchematicObjectTemplate:new {
 	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_module_heavy.iff"
-	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
---[[
-	appearanceFilename = "",
-	arrangementDescriptorFilename = "abstract/slot/arrangement/arrangement_datapad.iff",
-
-	clearFloraRadius = 0,
-	clientDataFile = "",
-	clientGameObjectType = 2049,
-	collisionActionBlockFlags = 0,
-	collisionActionFlags = 0,
-	collisionActionPassFlags = 0,
-	collisionMaterialBlockFlags = 0,
-	collisionMaterialFlags = 0,
-	collisionMaterialPassFlags = 0,
-	containerType = 0,
-	containerVolumeLimit = 0,
-
-	detailedDescription = "string_id_table",
-
-	gameObjectType = 2049,
-
-	locationReservationRadius = 0,
-	lookAtText = "string_id_table",
-
-	noBuildRadius = 0,
-
-	objectName = "string_id_table",
-	onlyVisibleInTools = 0,
-
-	portalLayoutFilename = "",
-
-	scale = 0,
-	scaleThresholdBeforeExtentTest = 0.5,
-	sendToClient = 1,
-	slotDescriptorFilename = "",
-	snapToTerrain = 0,
-	surfaceType = 0,
-
-	totalCellNumber = 0,
-
-	clientObjectCRC = 908240485,
-	derivedFromTemplates = {"object/object/base/shared_base_object.iff", "object/intangible/base/shared_base_intangible.iff", "object/draft_schematic/base/shared_base_draft_schematic.iff"}
-]]
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_module_heavy, "object/draft_schematic/armor/shared_armor_module_heavy.iff")
@@ -1560,6 +1517,10 @@ object_draft_schematic_armor_shared_shield_generator_vehicular = SharedDraftSche
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_shield_generator_vehicular, "object/draft_schematic/armor/shared_shield_generator_vehicular.iff")
 
+--tarkin CU armor
+
+--Assault Trooper
+
 object_draft_schematic_armor_shared_armor_appearance_assault_trooper_helmet = SharedDraftSchematicObjectTemplate:new {
 	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_assault_trooper_helmet.iff"
 	}
@@ -1620,7 +1581,7 @@ object_draft_schematic_armor_shared_armor_appearance_assault_trooper_utility_bel
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_assault_trooper_utility_belt, "object/draft_schematic/armor/shared_armor_appearance_assault_trooper_utility_belt.iff")
 
-
+--Scout Trooper
 
 
 object_draft_schematic_armor_shared_armor_appearance_scout_trooper_helmet = SharedDraftSchematicObjectTemplate:new {
@@ -1680,6 +1641,8 @@ ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appe
 object_draft_schematic_armor_shared_armor_appearance_scout_trooper_utility_belt = SharedDraftSchematicObjectTemplate:new {
 	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_scout_trooper_utility_belt.iff"
 	}
+
+--Storm Trooper
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_scout_trooper_utility_belt, "object/draft_schematic/armor/shared_armor_appearance_scout_trooper_utility_belt.iff")
 
@@ -1741,6 +1704,8 @@ object_draft_schematic_armor_shared_armor_appearance_stormtrooper_utility_belt =
 	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_utility_belt.iff"
 	}
 
+--Rebel Assault
+
 ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_stormtrooper_utility_belt, "object/draft_schematic/armor/shared_armor_appearance_stormtrooper_utility_belt.iff")
 
 object_draft_schematic_armor_shared_armor_appearance_rebel_assault_helmet = SharedDraftSchematicObjectTemplate:new {
@@ -1797,3 +1762,114 @@ object_draft_schematic_armor_shared_armor_appearance_rebel_assault_leggings = Sh
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_assault_leggings, "object/draft_schematic/armor/shared_armor_appearance_rebel_assault_leggings.iff")
 
+--Rebel Battle
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_battle_helmet = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_helmet.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_battle_helmet, "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_helmet.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_battle_bicep_l = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_bicep_l.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_battle_bicep_l, "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_bicep_l.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_battle_bicep_r = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_bicep_r.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_battle_bicep_r, "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_bicep_r.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_battle_bracer_r = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_bracer_r.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_battle_bracer_r, "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_bracer_r.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_battle_bracer_l = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_bracer_l.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_battle_bracer_l, "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_bracer_l.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_battle_boots = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_boots.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_battle_boots, "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_boots.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_battle_chest = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_chest.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_battle_chest, "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_chest.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_battle_gloves = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_gloves.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_battle_gloves, "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_gloves.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_battle_leggings = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_leggings.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_battle_leggings, "object/draft_schematic/armor/shared_armor_appearance_rebel_battle_leggings.iff")
+
+--Rebel Marine
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_marine_helmet = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_helmet.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_marine_helmet, "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_helmet.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_marine_bicep_l = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_bicep_l.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_marine_bicep_l, "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_bicep_l.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_marine_bicep_r = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_bicep_r.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_marine_bicep_r, "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_bicep_r.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_marine_bracer_r = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_bracer_r.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_marine_bracer_r, "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_bracer_r.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_marine_bracer_l = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_bracer_l.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_marine_bracer_l, "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_bracer_l.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_marine_boots = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_boots.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_marine_boots, "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_boots.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_marine_chest = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_chest.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_marine_chest, "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_chest.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_marine_gloves = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_gloves.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_marine_gloves, "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_gloves.iff")
+
+object_draft_schematic_armor_shared_armor_appearance_rebel_marine_leggings = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_leggings.iff"
+	}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_rebel_marine_leggings, "object/draft_schematic/armor/shared_armor_appearance_rebel_marine_leggings.iff")
